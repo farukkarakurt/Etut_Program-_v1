@@ -1,0 +1,10 @@
+C:\Users\faruk\source\repos\Not_Kayit_Sistemi\Etut_Program-_v1\Etut_Ders_Kayit_Sistemi\bin\Debug\Etut_Ders_Kayit_Sistemi.exe.config
+C:\Users\faruk\source\repos\Not_Kayit_Sistemi\Etut_Program-_v1\Etut_Ders_Kayit_Sistemi\bin\Debug\Etut_Ders_Kayit_Sistemi.exe
+C:\Users\faruk\source\repos\Not_Kayit_Sistemi\Etut_Program-_v1\Etut_Ders_Kayit_Sistemi\bin\Debug\Etut_Ders_Kayit_Sistemi.pdb
+C:\Users\faruk\source\repos\Not_Kayit_Sistemi\Etut_Program-_v1\Etut_Ders_Kayit_Sistemi\obj\Debug\Etut_Ders_Kayit_Sistemi.csproj.AssemblyReference.cache
+C:\Users\faruk\source\repos\Not_Kayit_Sistemi\Etut_Program-_v1\Etut_Ders_Kayit_Sistemi\obj\Debug\Etut_Ders_Kayit_Sistemi.Form1.resources
+C:\Users\faruk\source\repos\Not_Kayit_Sistemi\Etut_Program-_v1\Etut_Ders_Kayit_Sistemi\obj\Debug\Etut_Ders_Kayit_Sistemi.Properties.Resources.resources
+C:\Users\faruk\source\repos\Not_Kayit_Sistemi\Etut_Program-_v1\Etut_Ders_Kayit_Sistemi\obj\Debug\Etut_Ders_Kayit_Sistemi.csproj.GenerateResource.cache
+C:\Users\faruk\source\repos\Not_Kayit_Sistemi\Etut_Program-_v1\Etut_Ders_Kayit_Sistemi\obj\Debug\Etut_Ders_Kayit_Sistemi.csproj.CoreCompileInputs.cache
+C:\Users\faruk\source\repos\Not_Kayit_Sistemi\Etut_Program-_v1\Etut_Ders_Kayit_Sistemi\obj\Debug\Etut_Ders_Kayit_Sistemi.exe
+C:\Users\faruk\source\repos\Not_Kayit_Sistemi\Etut_Program-_v1\Etut_Ders_Kayit_Sistemi\obj\Debug\Etut_Ders_Kayit_Sistemi.pdb
