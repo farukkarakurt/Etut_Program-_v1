@@ -137,5 +137,19 @@ namespace Etut_Ders_Kayit_Sistemi
 
             MessageBox.Show("Ders Sisteme Eklenmiştir !", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        private void btn_dersiAl_Click(object sender, EventArgs e)
+        {
+            conn.Open();
+
+            SqlCommand cmd = new SqlCommand("update TBLETUt set  OGRENCI=@P1, DURUM=@P2 WHERE ID=@P3", conn);
+            cmd.Parameters.AddWithValue("@P1", txt_ogrenci.Text);
+            cmd.Parameters.AddWithValue("@P2", "True");
+            cmd.Parameters.AddWithValue("@P3",txt_etutid.Text);
+            cmd.ExecuteNonQuery();
+            conn.Close();
+            MessageBox.Show("Etüt öğrenciye verildi ");
+            etutListele();
+        }
     }
 }

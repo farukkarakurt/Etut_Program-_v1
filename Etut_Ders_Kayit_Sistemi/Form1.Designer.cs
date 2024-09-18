@@ -39,41 +39,41 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.txt_ogrenci = new System.Windows.Forms.TextBox();
+            this.txt_etutid = new System.Windows.Forms.TextBox();
             this.btn_dersiAl = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.txt_etutid = new System.Windows.Forms.TextBox();
-            this.txt_ogrenci = new System.Windows.Forms.TextBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.txt_dersAdi = new System.Windows.Forms.TextBox();
             this.btn_dersEkle = new System.Windows.Forms.Button();
+            this.txt_dersAdi = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.txt_ogrciad = new System.Windows.Forms.TextBox();
-            this.txt_ogrcisoyad = new System.Windows.Forms.TextBox();
-            this.txt_ogrciSinif = new System.Windows.Forms.TextBox();
-            this.txt_ogrciMail = new System.Windows.Forms.TextBox();
-            this.msk_telno = new System.Windows.Forms.MaskedTextBox();
             this.button2 = new System.Windows.Forms.Button();
+            this.msk_telno = new System.Windows.Forms.MaskedTextBox();
+            this.txt_ogrciMail = new System.Windows.Forms.TextBox();
+            this.txt_ogrciSinif = new System.Windows.Forms.TextBox();
+            this.txt_ogrcisoyad = new System.Windows.Forms.TextBox();
+            this.txt_ogrciad = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Btn_fotoekle = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.button4 = new System.Windows.Forms.Button();
-            this.label13 = new System.Windows.Forms.Label();
             this.txt_ogtmenAd = new System.Windows.Forms.TextBox();
-            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.txt_ders = new System.Windows.Forms.TextBox();
             this.txt_ogtmenSoyad = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.txt_ders = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -107,7 +107,7 @@
             this.btn_etutolustur.Location = new System.Drawing.Point(175, 309);
             this.btn_etutolustur.Name = "btn_etutolustur";
             this.btn_etutolustur.Size = new System.Drawing.Size(169, 43);
-            this.btn_etutolustur.TabIndex = 3;
+            this.btn_etutolustur.TabIndex = 4;
             this.btn_etutolustur.Text = "ETÜT OLUŞTUR";
             this.btn_etutolustur.UseVisualStyleBackColor = true;
             this.btn_etutolustur.Click += new System.EventHandler(this.btn_etutolustur_Click);
@@ -118,7 +118,7 @@
             this.mask_saat.Mask = "00:00";
             this.mask_saat.Name = "mask_saat";
             this.mask_saat.Size = new System.Drawing.Size(238, 34);
-            this.mask_saat.TabIndex = 2;
+            this.mask_saat.TabIndex = 3;
             this.mask_saat.ValidatingType = typeof(System.DateTime);
             // 
             // mask_tarih
@@ -144,7 +144,7 @@
             this.cmbo_Ders.Location = new System.Drawing.Point(153, 54);
             this.cmbo_Ders.Name = "cmbo_Ders";
             this.cmbo_Ders.Size = new System.Drawing.Size(238, 36);
-            this.cmbo_Ders.TabIndex = 1;
+            this.cmbo_Ders.TabIndex = 0;
             this.cmbo_Ders.SelectedIndexChanged += new System.EventHandler(this.cmbo_Ders_SelectedIndexChanged);
             // 
             // label4
@@ -196,14 +196,29 @@
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             // 
+            // txt_ogrenci
+            // 
+            this.txt_ogrenci.Location = new System.Drawing.Point(114, 94);
+            this.txt_ogrenci.Name = "txt_ogrenci";
+            this.txt_ogrenci.Size = new System.Drawing.Size(164, 34);
+            this.txt_ogrenci.TabIndex = 1;
+            // 
+            // txt_etutid
+            // 
+            this.txt_etutid.Location = new System.Drawing.Point(114, 48);
+            this.txt_etutid.Name = "txt_etutid";
+            this.txt_etutid.Size = new System.Drawing.Size(164, 34);
+            this.txt_etutid.TabIndex = 0;
+            // 
             // btn_dersiAl
             // 
             this.btn_dersiAl.Location = new System.Drawing.Point(79, 168);
             this.btn_dersiAl.Name = "btn_dersiAl";
             this.btn_dersiAl.Size = new System.Drawing.Size(169, 43);
-            this.btn_dersiAl.TabIndex = 3;
+            this.btn_dersiAl.TabIndex = 2;
             this.btn_dersiAl.Text = "DERSİ AL";
             this.btn_dersiAl.UseVisualStyleBackColor = true;
+            this.btn_dersiAl.Click += new System.EventHandler(this.btn_dersiAl_Click);
             // 
             // label6
             // 
@@ -245,20 +260,6 @@
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
-            // txt_etutid
-            // 
-            this.txt_etutid.Location = new System.Drawing.Point(114, 48);
-            this.txt_etutid.Name = "txt_etutid";
-            this.txt_etutid.Size = new System.Drawing.Size(164, 34);
-            this.txt_etutid.TabIndex = 4;
-            // 
-            // txt_ogrenci
-            // 
-            this.txt_ogrenci.Location = new System.Drawing.Point(114, 94);
-            this.txt_ogrenci.Name = "txt_ogrenci";
-            this.txt_ogrenci.Size = new System.Drawing.Size(164, 34);
-            this.txt_ogrenci.TabIndex = 4;
-            // 
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.btn_dersEkle);
@@ -270,6 +271,23 @@
             this.groupBox4.TabIndex = 3;
             this.groupBox4.TabStop = false;
             // 
+            // btn_dersEkle
+            // 
+            this.btn_dersEkle.Location = new System.Drawing.Point(114, 75);
+            this.btn_dersEkle.Name = "btn_dersEkle";
+            this.btn_dersEkle.Size = new System.Drawing.Size(164, 40);
+            this.btn_dersEkle.TabIndex = 1;
+            this.btn_dersEkle.Text = "DERS EKLE";
+            this.btn_dersEkle.UseVisualStyleBackColor = true;
+            this.btn_dersEkle.Click += new System.EventHandler(this.btn_dersEkle_Click);
+            // 
+            // txt_dersAdi
+            // 
+            this.txt_dersAdi.Location = new System.Drawing.Point(114, 35);
+            this.txt_dersAdi.Name = "txt_dersAdi";
+            this.txt_dersAdi.Size = new System.Drawing.Size(164, 34);
+            this.txt_dersAdi.TabIndex = 0;
+            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -278,23 +296,6 @@
             this.label7.Size = new System.Drawing.Size(100, 28);
             this.label7.TabIndex = 0;
             this.label7.Text = "DERS ADI:";
-            // 
-            // txt_dersAdi
-            // 
-            this.txt_dersAdi.Location = new System.Drawing.Point(114, 35);
-            this.txt_dersAdi.Name = "txt_dersAdi";
-            this.txt_dersAdi.Size = new System.Drawing.Size(164, 34);
-            this.txt_dersAdi.TabIndex = 1;
-            // 
-            // btn_dersEkle
-            // 
-            this.btn_dersEkle.Location = new System.Drawing.Point(114, 75);
-            this.btn_dersEkle.Name = "btn_dersEkle";
-            this.btn_dersEkle.Size = new System.Drawing.Size(164, 40);
-            this.btn_dersEkle.TabIndex = 2;
-            this.btn_dersEkle.Text = "DERS EKLE";
-            this.btn_dersEkle.UseVisualStyleBackColor = true;
-            this.btn_dersEkle.Click += new System.EventHandler(this.btn_dersEkle_Click);
             // 
             // groupBox5
             // 
@@ -315,41 +316,52 @@
             this.groupBox5.TabIndex = 4;
             this.groupBox5.TabStop = false;
             // 
-            // label8
+            // button2
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(66, 56);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(43, 28);
-            this.label8.TabIndex = 0;
-            this.label8.Text = "AD:";
+            this.button2.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button2.Location = new System.Drawing.Point(117, 309);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(186, 43);
+            this.button2.TabIndex = 5;
+            this.button2.Text = "ÖĞRENCİ EKLE";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // label9
+            // msk_telno
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(33, 105);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(79, 28);
-            this.label9.TabIndex = 0;
-            this.label9.Text = "SOYAD:";
+            this.msk_telno.Location = new System.Drawing.Point(120, 203);
+            this.msk_telno.Mask = "(999) 000-0000";
+            this.msk_telno.Name = "msk_telno";
+            this.msk_telno.Size = new System.Drawing.Size(183, 34);
+            this.msk_telno.TabIndex = 3;
             // 
-            // label10
+            // txt_ogrciMail
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(47, 156);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(62, 28);
-            this.label10.TabIndex = 0;
-            this.label10.Text = "SINIF:";
+            this.txt_ogrciMail.Location = new System.Drawing.Point(117, 254);
+            this.txt_ogrciMail.Name = "txt_ogrciMail";
+            this.txt_ogrciMail.Size = new System.Drawing.Size(186, 34);
+            this.txt_ogrciMail.TabIndex = 4;
             // 
-            // label11
+            // txt_ogrciSinif
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(51, 260);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(61, 28);
-            this.label11.TabIndex = 0;
-            this.label11.Text = "MAIL:";
+            this.txt_ogrciSinif.Location = new System.Drawing.Point(118, 150);
+            this.txt_ogrciSinif.Name = "txt_ogrciSinif";
+            this.txt_ogrciSinif.Size = new System.Drawing.Size(185, 34);
+            this.txt_ogrciSinif.TabIndex = 2;
+            // 
+            // txt_ogrcisoyad
+            // 
+            this.txt_ogrcisoyad.Location = new System.Drawing.Point(118, 105);
+            this.txt_ogrcisoyad.Name = "txt_ogrcisoyad";
+            this.txt_ogrcisoyad.Size = new System.Drawing.Size(185, 34);
+            this.txt_ogrcisoyad.TabIndex = 1;
+            // 
+            // txt_ogrciad
+            // 
+            this.txt_ogrciad.Location = new System.Drawing.Point(120, 56);
+            this.txt_ogrciad.Name = "txt_ogrciad";
+            this.txt_ogrciad.Size = new System.Drawing.Size(183, 34);
+            this.txt_ogrciad.TabIndex = 0;
             // 
             // label12
             // 
@@ -360,52 +372,41 @@
             this.label12.TabIndex = 0;
             this.label12.Text = "TEL NO:";
             // 
-            // txt_ogrciad
+            // label11
             // 
-            this.txt_ogrciad.Location = new System.Drawing.Point(120, 56);
-            this.txt_ogrciad.Name = "txt_ogrciad";
-            this.txt_ogrciad.Size = new System.Drawing.Size(183, 34);
-            this.txt_ogrciad.TabIndex = 1;
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(51, 260);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(61, 28);
+            this.label11.TabIndex = 0;
+            this.label11.Text = "MAIL:";
             // 
-            // txt_ogrcisoyad
+            // label10
             // 
-            this.txt_ogrcisoyad.Location = new System.Drawing.Point(118, 105);
-            this.txt_ogrcisoyad.Name = "txt_ogrcisoyad";
-            this.txt_ogrcisoyad.Size = new System.Drawing.Size(185, 34);
-            this.txt_ogrcisoyad.TabIndex = 1;
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(47, 156);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(62, 28);
+            this.label10.TabIndex = 0;
+            this.label10.Text = "SINIF:";
             // 
-            // txt_ogrciSinif
+            // label9
             // 
-            this.txt_ogrciSinif.Location = new System.Drawing.Point(118, 150);
-            this.txt_ogrciSinif.Name = "txt_ogrciSinif";
-            this.txt_ogrciSinif.Size = new System.Drawing.Size(185, 34);
-            this.txt_ogrciSinif.TabIndex = 1;
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(33, 105);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(79, 28);
+            this.label9.TabIndex = 0;
+            this.label9.Text = "SOYAD:";
             // 
-            // txt_ogrciMail
+            // label8
             // 
-            this.txt_ogrciMail.Location = new System.Drawing.Point(117, 254);
-            this.txt_ogrciMail.Name = "txt_ogrciMail";
-            this.txt_ogrciMail.Size = new System.Drawing.Size(186, 34);
-            this.txt_ogrciMail.TabIndex = 1;
-            // 
-            // msk_telno
-            // 
-            this.msk_telno.Location = new System.Drawing.Point(120, 203);
-            this.msk_telno.Mask = "(999) 000-0000";
-            this.msk_telno.Name = "msk_telno";
-            this.msk_telno.Size = new System.Drawing.Size(183, 34);
-            this.msk_telno.TabIndex = 2;
-            // 
-            // button2
-            // 
-            this.button2.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button2.Location = new System.Drawing.Point(117, 309);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(186, 43);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "ÖĞRENCİ EKLE";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(66, 56);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(43, 28);
+            this.label8.TabIndex = 0;
+            this.label8.Text = "AD:";
             // 
             // groupBox6
             // 
@@ -417,6 +418,17 @@
             this.groupBox6.TabIndex = 5;
             this.groupBox6.TabStop = false;
             // 
+            // Btn_fotoekle
+            // 
+            this.Btn_fotoekle.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Btn_fotoekle.Location = new System.Drawing.Point(91, 311);
+            this.Btn_fotoekle.Name = "Btn_fotoekle";
+            this.Btn_fotoekle.Size = new System.Drawing.Size(170, 43);
+            this.Btn_fotoekle.TabIndex = 0;
+            this.Btn_fotoekle.Text = "FOTOĞRAF EKLE";
+            this.Btn_fotoekle.UseVisualStyleBackColor = true;
+            this.Btn_fotoekle.Click += new System.EventHandler(this.Btn_fotoekle_Click);
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Location = new System.Drawing.Point(6, 24);
@@ -425,17 +437,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            // 
-            // Btn_fotoekle
-            // 
-            this.Btn_fotoekle.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Btn_fotoekle.Location = new System.Drawing.Point(91, 311);
-            this.Btn_fotoekle.Name = "Btn_fotoekle";
-            this.Btn_fotoekle.Size = new System.Drawing.Size(170, 43);
-            this.Btn_fotoekle.TabIndex = 2;
-            this.Btn_fotoekle.Text = "FOTOĞRAF EKLE";
-            this.Btn_fotoekle.UseVisualStyleBackColor = true;
-            this.Btn_fotoekle.Click += new System.EventHandler(this.Btn_fotoekle_Click);
             // 
             // groupBox7
             // 
@@ -449,7 +450,7 @@
             this.groupBox7.Location = new System.Drawing.Point(1120, 387);
             this.groupBox7.Name = "groupBox7";
             this.groupBox7.Size = new System.Drawing.Size(324, 316);
-            this.groupBox7.TabIndex = 6;
+            this.groupBox7.TabIndex = 0;
             this.groupBox7.TabStop = false;
             // 
             // button4
@@ -458,10 +459,17 @@
             this.button4.Location = new System.Drawing.Point(112, 255);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(170, 43);
-            this.button4.TabIndex = 2;
+            this.button4.TabIndex = 3;
             this.button4.Text = "ÖĞRETMEN EKLE";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // txt_ogtmenAd
+            // 
+            this.txt_ogtmenAd.Location = new System.Drawing.Point(103, 33);
+            this.txt_ogtmenAd.Name = "txt_ogtmenAd";
+            this.txt_ogtmenAd.Size = new System.Drawing.Size(198, 34);
+            this.txt_ogtmenAd.TabIndex = 0;
             // 
             // label13
             // 
@@ -472,12 +480,19 @@
             this.label13.TabIndex = 0;
             this.label13.Text = "AD:";
             // 
-            // txt_ogtmenAd
+            // txt_ders
             // 
-            this.txt_ogtmenAd.Location = new System.Drawing.Point(103, 33);
-            this.txt_ogtmenAd.Name = "txt_ogtmenAd";
-            this.txt_ogtmenAd.Size = new System.Drawing.Size(198, 34);
-            this.txt_ogtmenAd.TabIndex = 1;
+            this.txt_ders.Location = new System.Drawing.Point(103, 142);
+            this.txt_ders.Name = "txt_ders";
+            this.txt_ders.Size = new System.Drawing.Size(198, 34);
+            this.txt_ders.TabIndex = 2;
+            // 
+            // txt_ogtmenSoyad
+            // 
+            this.txt_ogtmenSoyad.Location = new System.Drawing.Point(103, 84);
+            this.txt_ogtmenSoyad.Name = "txt_ogtmenSoyad";
+            this.txt_ogtmenSoyad.Size = new System.Drawing.Size(198, 34);
+            this.txt_ogtmenSoyad.TabIndex = 1;
             // 
             // label14
             // 
@@ -487,13 +502,6 @@
             this.label14.Size = new System.Drawing.Size(79, 28);
             this.label14.TabIndex = 0;
             this.label14.Text = "SOYAD:";
-            // 
-            // txt_ogtmenSoyad
-            // 
-            this.txt_ogtmenSoyad.Location = new System.Drawing.Point(103, 84);
-            this.txt_ogtmenSoyad.Name = "txt_ogtmenSoyad";
-            this.txt_ogtmenSoyad.Size = new System.Drawing.Size(198, 34);
-            this.txt_ogtmenSoyad.TabIndex = 1;
             // 
             // label15
             // 
@@ -507,13 +515,6 @@
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
-            // 
-            // txt_ders
-            // 
-            this.txt_ders.Location = new System.Drawing.Point(103, 142);
-            this.txt_ders.Name = "txt_ders";
-            this.txt_ders.Size = new System.Drawing.Size(198, 34);
-            this.txt_ders.TabIndex = 1;
             // 
             // Form1
             // 
